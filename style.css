@@ -19,7 +19,7 @@ body {
 
 /* imagem laranja contorcida do fundo */
 .img-contorcida{
-  height: auto;
+  height: 100svh;
   width: 950px;
   
 }
@@ -56,26 +56,32 @@ body {
  .Login{
     color: #C1442E;
     margin-top: 95px;
-    margin-left: 280px;
     font-size: 35px;
 
 }
 
 /* escrita ENTRAR NA SUA CONTA */
 .entrar-conta{
-    padding-top: 35px;
-    margin-left: 205px;
+    padding-top: 25px;
     font-size: 25px;
     color: #A2A2A2;
 }
 
 /* Campo para o usuario entrar */
-.campo-usuario{
-    padding-top: 80px;
+.campo-usuario, .campo-email, .campo-senha{
+    padding-top: 10px;
     margin-bottom: 10px;
     width: 100%;
    
 
+}
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-top: 40px;
 }
 
 /* Escrita nome de usuario */
@@ -86,7 +92,7 @@ body {
 
 /* Campo de colocar nome de usuario  */
 input{
-    width: 80%;
+    width: 100%;
     padding:15px;
     border: 1px solid #FFF7EA;
     border-radius: 12px;
@@ -116,7 +122,10 @@ input{
     align-items: center;
     gap: 8px;
     font-size: 14px;
-    padding-top: 4px;
+    padding-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+
 }
 
 /* quadrado do lembre de mim */
@@ -130,7 +139,6 @@ input{
 
 /* esqueci minha senha */
 .esquecis{
-   padding-left: 550px;
    color: #C1442E;
 }
 
@@ -152,15 +160,24 @@ input{
 
 /* posição do botao de login */
 .botao{
-    padding-left: 120px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
 }
 
 /* escrita de cadastro, caso não tenha login */
 .cadastro{
     display: flex;
-    padding-top: 50px;
+    padding-top: 20px;
    
    
+}
+
+.escrita-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cadastro-btn{
@@ -169,7 +186,6 @@ input{
 
 /* escrita nao tem login */
 .nao-login{
-    padding-left: 150px;
     font-weight: normal;
 }
 
