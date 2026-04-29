@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif; 
+}
+
+/* Corpo do site */
+body {
+  background-color: #FFF7EA ;
+} 
+
+/* Div principal do site */
+.div-pai{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: fit-content;
+}
+
+/* imagem laranja contorcida do fundo */
+.img-contorcida{
+  height: auto;
+  width: 950px;
+  
+}
+
+/* imagem da pizza */
+.img-lanche{
+   margin-left: -830px;
+   padding-top: 200px;
+    position: absolute; 
+}
+
+/* escrita do bem-vindo de volta */
+.bem-vindo{
+    position: absolute;
+    left: 270px;
+    top: 77px;
+    color: #FFF7EA;
+    font-size: 35px;
+}
+
+/* imagem da logo */
+.img-logo{
+    position: absolute;
+    top: 28px;
+    left: 20px;
+}
+
+.Imgs {
+    position: relative;
+} 
+
+/* Lado do login ----------------------------------------*/
+/* Escrita LOGIN */
+ .Login{
+    color: #C1442E;
+    margin-top: 95px;
+    margin-left: 280px;
+    font-size: 35px;
+
+}
+
+/* escrita ENTRAR NA SUA CONTA */
+.entrar-conta{
+    padding-top: 35px;
+    margin-left: 205px;
+    font-size: 25px;
+    color: #A2A2A2;
+}
+
+/* Campo para o usuario entrar */
+.campo-usuario{
+    padding-top: 80px;
+    margin-bottom: 10px;
+    width: 100%;
+   
+
+}
+
+/* Escrita nome de usuario */
+.usuario {
+    padding-left: 10px;
+    color: #C1442E;
+}
+
+/* Campo de colocar nome de usuario  */
+input{
+    width: 80%;
+    padding:15px;
+    border: 1px solid #FFF7EA;
+    border-radius: 12px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.3s;
+    border-color: #C1442E;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+} 
+
+/* campo para colocar o email */
+.email{
+    padding-left: 10px;
+    color: #C1442E;
+}
+
+/* campo para colocar a senha */
+.senha {
+    padding-left: 10px;
+    color:#C1442E;
+}
+
+/* Escrita do lembre de mim */
+.lembre-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+/* quadrado do lembre de mim */
+.lembre-me input {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #C1442E;
+
+}
+
+/* esqueci minha senha */
+.esquecis{
+   padding-left: 550px;
+   color: #C1442E;
+}
+
+/* botao de colocar o login */
+.Login-btn {
+    background-color: #C1442E;
+    color: aliceblue;
+    width: 60%;
+    padding:15px;
+    border: 1px solid #FFF7EA;
+    border-radius: 12px;
+    outline: none;
+    font-size: 20px;
+    border-color: #C1442E;  
+    cursor: pointer;
+      
+    
+}
+
+/* posição do botao de login */
+.botao{
+    padding-left: 120px; 
+}
+
+/* escrita de cadastro, caso não tenha login */
+.cadastro{
+    display: flex;
+    padding-top: 50px;
+   
+   
+}
+
+.cadastro-btn{
+    color: #C1442E;
+}
+
+/* escrita nao tem login */
+.nao-login{
+    padding-left: 150px;
+    font-weight: normal;
+}
+
+
+
+
