@@ -1,0 +1,33 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #FFF7EA
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #71271B, #C1442E,#71271B);
+  padding: 10px 20px;
+  color: #FFF7EA;
+}
+
+.logo img {
+  width: 60px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+    width: 30px;
+    margin: 0 10px 0 20px;
+}
+
+#saudacao {
+    margin: 20px 20px 20px 20px;
+}
