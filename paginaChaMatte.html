@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Produto</title>
+    <link rel="stylesheet" href="paginaChaMatte.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="top-bar">
+        <div class="logo">
+            <img src="./img/logo-nexbite.png" alt="NEXBITE">
+        </div>
+        <div>
+            <span id="saudacao">Olá, Maria</span>
+            <img class="icon" src="./img/icone-perfil.png">
+            <img class="icon" src="./img/icone-carrinho.png">
+        </div>
+    </header>
+
+    <!-- Card do Produto -->
+    <div class="container-produto">
+        <div>
+            <img class="img" src="./img/cha-matte.png">
+        </div>
+        <div class="description">
+            <h1 class="title">Chá Matte</h1>
+            <br>
+            <p class="descricao">O chá matte é feito a partir da infusão das folhas da erva-mate, cuidadosamente selecionadas <br>
+                 e secas. Após a preparação, resulta em uma bebida de sabor marcante e levemente amargo, <br>
+                  com aroma característico. Pode ser servido quente ou gelado, trazendo frescor, energia natural <br>
+                   e uma sensação de bem-estar a qualquer momento do dia.
+            </p>
+        </div>
+    </div>
+
+    <!-- Ingredientes -->
+    <h2 class="subtitle">Ingredientes:</h2>
+
+    <div class="ingredientes">
+        <div class="icones">
+            <img class="icon-1" src="./img/copo-de-agua.png">
+            <img class="icon-1" src="./img/acucar.png">
+            <img class="icon-1" src="./img/acido.png">
+        </div>
+
+        <div class="massa">
+            <P>Água</P>
+            <P>Açúcar</P>
+            <p>Antioxidante ácido ascórbico</p>
+        </div>
+
+        <div class="icones">
+            <img class="icon-1" src="./img/acido.png">
+            <img class="icon-1" src="./img/matte.png">
+        </div>
+
+        <div class="recheio">
+            <P>Regulador de ácidez ácido cítrico</P>
+            <p>Extrato aquoso de mate (Ilex paraguariensis St. Hil)</p>
+        </div>
+    </div>
+
+    <!-- Faixa de preço e unidades restantes -->
+    <div class="tabela">
+        <p class="preco">R$ 7,00</p>
+        <p class="unidade">unidade</p>
+        <p class="quantidade">Restante: 8</p>
+    </div>
+
+    <!-- Botões aumentar ou diminuir quantidade e adicionar item -->
+    <div class="botoes">
+        <div class="botao-quantidade">
+            <button type="button" class="btn-qtd" onclick="mudarQuantidade(this, -1)">-</button>
+            <input type="number" class="input-qtd" value="1" min="1" max="99">
+            <button type="button" class="btn-qtd" onclick="mudarQuantidade(this, 1)">+</button>
+        </div>
+        <div>
+            <button type="submit" class="adicionar-item">Adicionar item</button>
+        </div>
+    </div>
+
+    <script src="./paginaChaMatte.js"></script>
+
+</body>
+
+</html>

@@ -1,29 +1,126 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="salgados.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cárdapio - Salgados</title>
+  <link rel="stylesheet" href="salgados.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
         rel="stylesheet">
-    <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <div class="div-principal">
-            <div class="logo">
-                <img src="/assets/logo.png" alt="Logo nexBite" onclick="window.location.href='index.html'" />
-                <img class="nav-img" src="/assets/img-nav.png" alt="">
-            </div>
-            <nav class="navegacao-principal">
-                <ul>
-                    <li><a href="perfil.html">👤</a></li>
-                </ul>
-            </nav>
-    </header>
-    </div>
-</body>
 
+  <!-- Navbar -->
+  <header class="top-bar">
+    <div class="logo">
+      <img src="./img/logo-nexbite.png" alt="NEXBITE">
+    </div>
+    <div class="user-info">
+      <span id="saudacao">Olá, Maria</span>
+      <img class="icon" src="./img/icone-perfil.png" alt="Perfil">
+      <img class="icon" src="./img/icone-carrinho.png" alt="Carrinho">
+    </div>
+  </header>
+
+  <!-- Descrição -->
+  <div class="container">
+    <div>
+      <h1 class="title">Salgados</h1>
+      <p class="subtitle">Os melhores salgados para o seu momento de fome!</p>
+    </div>
+    <div class="img">
+      <img src="./img/gerar-senha.png" alt="Gerar senha">
+    </div>
+  </div>
+
+  <!-- Cardápio -->
+  <section class="cardapio">
+      <a href="paginaCoxinha.html">
+        <div class="card">
+        <img src="./img/coxinha.png" alt="Coxinha" class="comida">
+          <div class="info">
+            <div class="linha">
+              <h3>Coxinha</h3>
+            <div class="detalhes-direita">
+              <p class="preco">R$ 6,00 <span>- unidade</span></p>
+              <p class="quantidade">Restantes: 8</p>
+          </div>
+        </div>
+        <p class="descricao">Massa de batata, recheada com frango <br> desfiado e requeijão, empanada e frita.</p>
+      </div>
+    </div>
+      </a>
+
+    <div class="card">
+      <img src="./img/pao-de-queijo.png" alt="Pão de queijo" class="comida">
+      <div class="info">
+        <div class="linha">
+          <h3>Pão de queijo</h3>
+          <div class="detalhes-direita">
+            <p class="preco">R$ 6,00 <span>- unidade</span></p>
+            <p class="quantidade">Restantes: 8</p>
+          </div>
+        </div>
+        <p class="descricao">Bolinho assado de polvilho e queijo, <br> crocante por fora e macio por dentro.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./img/esfiha.png" alt="Esfiha" class="comida">
+      <div class="info">
+        <div class="linha">
+          <h3>Esfiha</h3>
+          <div class="detalhes-direita">
+            <p class="preco">R$ 5,00 <span>- unidade</span></p>
+            <p class="quantidade">Restantes: 8</p>
+          </div>
+        </div>
+        <p class="descricao">Massa macia assada, recheada com carne, <br> frango ou calabresa temperada.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./img/hamburguer.png" alt="Hamburguer" class="comida">
+      <div class="info">
+        <div class="linha">
+          <h3>Hamburguer</h3>
+          <div class="detalhes-direita">
+            <p class="preco">R$ 6,00 <span>- unidade</span></p>
+            <p class="quantidade">Restantes: 8</p>
+          </div>
+        </div>
+        <p class="descricao">Pão macio recheado com carne bovina grelhada, <br> queijo derretido, alface, tomate e molho especial.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./img/risole.png" alt="Risole" class="comida">
+      <div class="info">
+        <div class="linha">
+          <h3>Risole</h3>
+          <div class="detalhes-direita">
+            <p class="preco">R$ 6,00 <span>- unidade</span></p>
+            <p class="quantidade">Restantes: 8</p>
+          </div>
+        </div>
+        <p class="descricao">Massa leve, recheada com presunto e queijo, <br> empanada e frita até dourar.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./img/pizza.png" alt="Pizza" class="comida">
+      <div class="info">
+        <div class="linha">
+          <h3>Pizza</h3>
+          <div class="detalhes-direita">
+            <p class="preco">R$ 6,00 <span>- unidade</span></p>
+            <p class="quantidade">Restantes: 8</p>
+          </div>
+        </div>
+        <p class="descricao">Massa fina assada, coberta com molho <br> de tomate e queijo derretido.</p>
+      </div>
+    </div>
+  </section>
+
+</body>
 </html>
