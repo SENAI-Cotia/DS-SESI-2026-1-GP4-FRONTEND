@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Produto</title>
-    <link rel="stylesheet" href="paginaCoxinha.css">
+    <link rel="stylesheet" href="../css/paginaCoxinha.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
         rel="stylesheet">
 </head>
@@ -15,19 +15,19 @@
     <!-- Navbar -->
     <header class="top-bar">
         <div class="logo">
-            <img src="./img/logo-nexbite.png" alt="NEXBITE">
+            <img src="../img/logo-nexbite.png" alt="NEXBITE">
         </div>
         <div>
             <span id="saudacao">Olá, Maria</span>
-            <img class="icon" src="./img/icone-perfil.png">
-            <img class="icon" src="./img/icone-carrinho.png">
+            <img class="icon" src="../img/icone-perfil.png">
+            <img class="icon" src="../img/icone-carrinho.png">
         </div>
     </header>
 
     <!-- Card do Produto -->
     <div class="container-produto">
         <div>
-            <img class="img" src="./img/coxinha.png">
+            <img class="img" src="../img/coxinha.png">
         </div>
         <div class="description">
             <h1 class="title">Coxinha</h1>
@@ -47,10 +47,10 @@
 
     <div class="ingredientes">
         <div class="icones">
-            <img class="icon-1" src="./img/batata.png">
-            <img class="icon-1" src="./img/trigo.png">
-            <img class="icon-1" src="./img/manteiga.png">
-            <img class="icon-1" src="./img/caldo.png">
+            <img class="icon-1" src="../img/batata.png">
+            <img class="icon-1" src="../img/trigo.png">
+            <img class="icon-1" src="../img/manteiga.png">
+            <img class="icon-1" src="../img/caldo.png">
         </div>
 
         <div class="massa">
@@ -61,10 +61,10 @@
         </div>
 
         <div class="icones">
-            <img class="icon-1" src="./img/frango.png">
-            <img class="icon-1" src="./img/requeijao.png">
-            <img class="icon-1" src="./img/tempero.png">
-            <img class="icon-1" src="./img/ovo.png">
+            <img class="icon-1" src="../img/frango.png">
+            <img class="icon-1" src="../img/requeijao.png">
+            <img class="icon-1" src="../img/tempero.png">
+            <img class="icon-1" src="../img/ovo.png">
         </div>
 
         <div class="recheio">
@@ -89,12 +89,14 @@
             <input type="number" class="input-qtd" value="1" min="1" max="99">
             <button type="button" class="btn-qtd" onclick="mudarQuantidade(this, 1)">+</button>
         </div>
-        <div>
-            <button type="submit" class="adicionar-item">Adicionar item</button>
-        </div>
+        <a href="../html/carrinho.html">
+            <div>
+                <button type="submit" class="adicionar-item">Adicionar item</button>
+            </div>
+        </a>
     </div>
 
-    <script src="./paginaCoxinha.js"></script>
+    <script src="../js/paginaCoxinha.js"></script>
 
 </body>
 
