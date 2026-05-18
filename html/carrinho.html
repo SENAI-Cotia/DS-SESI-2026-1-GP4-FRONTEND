@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="../css/carrinho.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="top-bar">
+        <div class="logo">
+            <img src="../img/logo-nexbite.png" alt="NEXBITE">
+        </div>
+        <div>
+            <span id="saudacao">Olá, Maria</span>
+            <img class="icon" src="../img/icone-perfil.png">
+            <img class="icon" src="../img/icone-carrinho.png">
+        </div>
+    </header>
+
+    <!-- Título -->
+    <div class="title">
+        <h1>Meu Carrinho</h1>
+    </div>
+
+    <!-- Cards do carrinho -->
+    <div class="container">
+
+        <div class="botoes-2">
+            <a href="../html/home.html">
+                <div>
+                    <button type="submit" class="voltar">Continuar comprando</button>
+                </div>
+            </a>
+
+            <a href="../html/home.html">
+                <div>
+                    <button type="submit" class="esvaziar">Esvaziar carrinho</button>
+                </div>
+            </a>
+        </div>
+
+        <div class="img-retire">
+            <img src="../img/retire.png">
+        </div>
+
+        <div class="container-carrinho">
+
+            <div class="cards-pequenos">
+
+                <div class="card">
+                    <img src="../img/coxinha.png" alt="Coxinha" class="comida">
+                    <div class="info">
+                        <div class="linha">
+                            <h3>Coxinha</h3>
+                            <div class="detalhes">
+                                <p class="preco">R$ 6,00 <span>- unidade</span></p>
+                                <p class="quantidade">Restantes: 8</p>
+                                <img class="lixeira" src="../img/lixeira.png">
+                            </div>
+                        </div>
+                        <p class="descricao">Massa de batata, recheada <br> com frango desfiado e <br> requeijão,
+                            empanada e
+                            frita.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="../img/cha-matte.png" alt="Coxinha" class="comida">
+                    <div class="info">
+                        <div class="linha">
+                            <h3>Chá Matte</h3>
+                            <div class="detalhes">
+                                <p class="preco">R$ 7,00 <span>- unidade</span></p>
+                                <p class="quantidade">Restantes: 12</p>
+                                <img class="lixeira" src="../img/lixeira.png">
+                            </div>
+                        </div>
+                        <p class="descricao">Bebida gelada de chá mate, <br> sabor suave e levemente <br> adocicado.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="caixa">
+                <div class="tabela">
+                    <p class="total-itens">Total de itens: 2</p>
+                    <p class="total-valor">Valor total: R$13,00</p>
+                </div>
+
+                <div class="caixa-observacao">
+                    <label for="observacao"></label>
+                    <br>
+                    <input type="text" id="observacao" name="observacao" required placeholder="Observação (opcional)"
+                        maxlength="20" minlength="4">
+                </div>
+            </div>
+
+            <!-- Botões -->
+            <div class="botoes">
+                <a href="#">
+                    <div>
+                        <button type="submit" class="reservar">Reservar</button>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
