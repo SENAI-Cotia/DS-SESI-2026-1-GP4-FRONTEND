@@ -1,11 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu perfil</title>
+
+    <link rel="stylesheet" href="../css/perfil.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+
+    <!-- Navbar -->
+    <header class="top-bar">
+
+        <div class="logo">
+            <img src="../img/logo-nexbite.png" alt="NEXBITE">
+        </div>
+
+        <div class="user-info">
+            <span id="saudacao">Olá, Maria</span>
+
+            <img class="icon" src="../img/icone-perfil.png" alt="Perfil">
+
+            <img class="icon" src="../img/icone-carrinho.png" alt="Carrinho">
+        </div>
+
+    </header>
+
+
+    <section class="td-info">
+        <!-- LADO ESQUERDO -->
+        <div class="lado-esquerdo">
+            <div class="container">
+                <h1 class="escrita-perfil">Meu perfil</h1>
+                <div class="informacoes-perfil">
+                    <div class="maria">
+                        <img class="chef" src="../img/chef.png" alt="Chef" />
+                        <div class="dados">
+                            <span class="dados1" id="iddados">
+                                Maria Rodrigues
+                            </span>
+                            <span class="dados-2" id="iddados2">
+                                maria.rodrigues20@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                    <button type="submit" class="meu-perfil">
+                        Meu perfil
+                    </button>
+                    <button type="submit" class="meu-perfil">
+                        Meus pedidos
+                    </button>
+                </div>
+            </div>
+            <button class="perfil-2">Meu perfil</button>
+            <!-- CARD INFORMAÇÕES -->
+            <div class="informacoes">
+                <h3>Nome completo</h3>
+                <h4 class="nome-maria">Maria da Silva Rodrigues</h4>
+                <h3>Data de nascimento</h3>
+                <div class="data">
+                    <h4 class="nascimento">
+                        19/03/2005
+                    </h4>
+                    <img class="calendario" src="../assets/solar_calendar-linear.png" alt="calendario">
+                </div>
+
+                <div>
+                    <h3>CPF</h3>
+
+                    <div class="cpf">
+                        <h4 class="documento-1">123.456.789-32</h4>
+                        <img class="documento-2" src="../assets/basil_document-outline.png" alt="">
+                    </div>
+                </div>
+                <h3>Telefone</h3>
+                <div class="telefone">
+                    <h4 class="celular">
+                        (11) 91234-5678
+                    </h4>
+                    <img class="celular2" src="../assets/mynaui_telephone.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- LADO DIREITO -->
+        <div class="lado-direito">
+            <button class="ult-pedidos">
+                Últimos pedidos
+            </button>
+            <div class="informacoes-maior">
+                <h3 class="data-direito">16/05/2026</h3>
+                <h3 class="valor">Valor total: R$13,00</h3>
+            </div>
+            <div class="item-pedido">
+                <img class="img-item" src="../assets/image 50.png" alt="">
+                <div class="info-item">
+                    <h2 class="titulo">Chá Matte</h2>
+                    <p class="descricao">
+                        Produzido com extrato de mate, água e açúcar, o Chá MATTE LEÃO Natural é a opção ideal para
+                        refrescar o seu dia!
+                    </p>
+                </div>
+                <div class="lado-direito-item">
+                    <span class="preco">R$ 7,00</span>
+                    <span class="quantidade">Quantidade: 1</span>
+                </div>
+            </div>
+            <div class="item-pedido">
+                <img class="img-item" src="../assets/Rectangle 61.png" alt="Coxinha">
+                <div class="info-item">
+                    <h2 class="titulo">Coxinha</h2>
+                    <p class="descricao">
+                        Massa de batata, recheada com frango desfiado e requeijão, empanada e frita.
+                    </p>
+                </div>
+                <div class="lado-direito-item">
+                    <span class="preco">R$ 6,00</span>
+                    <span class="quantidade">Quantidade: 1</span>
+                </div>
+            </div>
+            <div class="tempo-pix">
+                <div class="pix-pedido">
+                    <img class="reloginho" src="../assets/mingcute_time-line.png" alt="">
+                    <span class="hora">14:07</span>
+                    <img class="nota" src="../assets/tdesign_money.png" alt="">
+                    <span class="Pix">Pix</span>
+                    <img class="num-pedido" src="../assets/lets-icons_paper.png" alt="">
+                    <span>27</span>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------- -->
+
+            <br><br><br><br>
+            <div class="informacoes-maior">
+                <h3 class="data-direito">15/05/2026</h3>
+                <h3 class="valor">Valor total: R$23,00</h3>
+            </div>
+
+            <!--Parte de cima do pedido  -->
+            <div class="item-pedido">
+                <img class="img-item2" src="../assets/image 48 (1).png" alt="">
+                <div class="info-item">
+                    <h2 class="titulo">Energético</h2>
+                    <p class="descricao">
+
+                        É uma bebida funcional desenvolvida para momentos de esforço mental e físico. Famoso pelo slogan
+                        "te dá asas", ele combina ingredientes como cafeína, taurina, vitaminas do complexo B, sacarose,
+                        glucose e água.
+                    </p>
+                </div>
+                <div class="lado-direito-item">
+                    <span class="preco">R$ 11,00</span>
+                    <span class="quantidade">Quantidade: 1</span>
+                </div>
+            </div>
+            <!-- pedido de baixo -->
+            <div class="item-pedido2">
+                <img class="img-item" src="../assets/Rectangle 61.png" alt="Coxinha">
+                <div class="info-item2">
+                    <h2 class="titulo2">Coxinha</h2>
+                    <p class="descricao2">
+
+                        Massa de batata, recheada com frango desfiado e requeijão, empanada e frita.
+                    </p>
+                </div>
+                <div class="lado-direito-item2">
+                    <span class="preco2">R$ 12,00</span>
+                    <span class="quantidade2">Quantidade: 2</span>
+                </div>
+
+                <!-- Parte que mostar pix, hora e numero do pédido -->
+            </div>
+            <div class="tempo-pix">
+                <div class="pix-pedido">
+                    <img class="reloginho" src="../assets/mingcute_time-line.png" alt="">
+                    <span class="hora">14:07</span>
+                    <img class="nota" src="../assets/tdesign_money.png" alt="">
+                    <span class="Pix">Pix</span>
+                    <img class="num-pedido" src="../assets/lets-icons_paper.png" alt="">
+                    <span>27</span>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
